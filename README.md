@@ -1,5 +1,20 @@
-## Fun with Code (Base)
-The base composer package for the "Fun with Code" series
+# Time AM/PM to 24h
+
+Please read the "Getting Started" section if you are unfamiliar with getting the project going.
+
+### What it's about:
+
+The aim of this repo is to show how to quickly write the AM/PM to 24h fun we had in a framework that lends itself more to extendability and to use more tools out there.
+
+#### Where the code sits:
+
+You can look at two files:
+- play.php: This is the file you'll run using `php play.php` to see the code in action.
+- src\Time.php: This is the class, exactly as we had before, that holds the code to actually do the conversion. Note that the namespace has changed, so we can refer to the class as `Fun\Time.php`.
+
+#### Testing:
+
+To test, just run: `php play.php` as you did before, and see the results.
 
 ### Getting Started / Installing
 
